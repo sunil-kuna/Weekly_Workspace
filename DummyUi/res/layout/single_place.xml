@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+<LinearLayout 
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/titlebarback"
+     >
+
+ 
+         <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+    
+             android:paddingLeft="10dp"
+             android:id="@+id/name"
+             android:layout_width="wrap_content"
+             android:layout_height="fill_parent"
+             android:text=""
+             android:textColor="#fff"
+            
+                         android:textSize="30dp" />
+
+         
+
+            </LinearLayout>
+    <LinearLayout 
+                android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="20dp"
+    >
+   
+ <LinearLayout 
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="15dp"
+    android:background="#fff">
+    <!-- Address Label -->
+ 
+    
+    <!--  Address Value -->
+   <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+    
+        android:id="@+id/address"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <!-- Phone Number Label -->
+    <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+    
+        android:id="@+id/phone"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"/>
+    </LinearLayout>
+ 
+   </LinearLayout>
+    <LinearLayout 
+                android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:weightSum="100"
+    >
+     <fragment 
+         android:layout_weight="60"
+		android:id="@+id/single_map"
+		android:layout_margin="8dp"
+		android:layout_width="wrap_content"
+		android:layout_height="300dp"
+		class="com.google.android.gms.maps.SupportMapFragment" />
+    <com.tomdignan.nifty.NiftyButton
+        android:drawSelectorOnTop="true" 
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+    android:layout_weight="40"
+			 android:layout_margin="8dp"
+			 android:padding="5dp"
+             android:id="@+id/CESinglemap"
+            android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:background="#E83E3F"
+             android:text="ACCEPT VENUE"
+             android:textSize="40dp"
+             android:textColor="#fff" />
+     
+       </LinearLayout>
+</LinearLayout>
+</ScrollView>

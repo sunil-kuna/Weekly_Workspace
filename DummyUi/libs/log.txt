@@ -1,0 +1,284 @@
+06-20 20:43:46.360: D/dalvikvm(32037): zygote fork : 0
+06-20 20:43:46.360: D/dalvikvm(32037): zygote get new systemTid : 32037
+06-20 20:43:46.360: D/dalvikvm(32037): Late-enabling CheckJNI
+06-20 20:43:46.369: D/dalvikvm(32037): threadid=2: interp stack at 0x41be4000
+06-20 20:43:46.374: D/dalvikvm(32037): threadid=3: interp stack at 0x41bec000
+06-20 20:43:46.374: D/dalvikvm(32037): Elevating priority from 0 to -8
+06-20 20:43:46.374: D/jdwp(32037): prepping for JDWP over ADB
+06-20 20:43:46.374: D/jdwp(32037): ADB transport startup
+06-20 20:43:46.375: D/dalvikvm(32037): threadid=4: interp stack at 0x41bf4000
+06-20 20:43:46.375: D/jdwp(32037): JDWP: thread running
+06-20 20:43:46.375: D/jdwp(32037): acceptConnection
+06-20 20:43:46.376: D/dalvikvm(32037): threadid=5: interp stack at 0x515e5000
+06-20 20:43:46.376: D/dalvikvm(32037): zygote get thread init done
+06-20 20:43:46.376: D/jdwp(32037): trying to receive file descriptor from ADB
+06-20 20:43:46.376: D/dalvikvm(32037): create interp thread : stack size=32KB
+06-20 20:43:46.376: D/dalvikvm(32037): create new thread
+06-20 20:43:46.377: D/dalvikvm(32037): update thread list
+06-20 20:43:46.377: D/dalvikvm(32037): threadid=6: interp stack at 0x515ed000
+06-20 20:43:46.377: D/dalvikvm(32037): threadid=6: created from interp
+06-20 20:43:46.377: D/dalvikvm(32037): start new thread
+06-20 20:43:46.377: D/dalvikvm(32037): threadid=6: notify debugger
+06-20 20:43:46.377: D/dalvikvm(32037): threadid=6 (ReferenceQueueDaemon): calling run()
+06-20 20:43:46.377: D/dalvikvm(32037): create interp thread : stack size=32KB
+06-20 20:43:46.377: D/dalvikvm(32037): create new thread
+06-20 20:43:46.377: D/dalvikvm(32037): update thread list
+06-20 20:43:46.377: D/dalvikvm(32037): threadid=7: interp stack at 0x516f5000
+06-20 20:43:46.377: D/dalvikvm(32037): threadid=7: created from interp
+06-20 20:43:46.377: D/dalvikvm(32037): start new thread
+06-20 20:43:46.377: D/dalvikvm(32037): threadid=7: notify debugger
+06-20 20:43:46.377: D/dalvikvm(32037): threadid=7 (FinalizerDaemon): calling run()
+06-20 20:43:46.377: D/dalvikvm(32037): create interp thread : stack size=32KB
+06-20 20:43:46.377: D/dalvikvm(32037): create new thread
+06-20 20:43:46.377: D/dalvikvm(32037): update thread list
+06-20 20:43:46.378: D/dalvikvm(32037): threadid=8: interp stack at 0x517fd000
+06-20 20:43:46.378: D/dalvikvm(32037): threadid=8: created from interp
+06-20 20:43:46.378: D/dalvikvm(32037): start new thread
+06-20 20:43:46.378: D/dalvikvm(32037): threadid=8: notify debugger
+06-20 20:43:46.378: D/dalvikvm(32037): threadid=8 (FinalizerWatchdogDaemon): calling run()
+06-20 20:43:46.386: D/jdwp(32037): received file descriptor 35 from ADB
+06-20 20:43:46.391: D/jdwp(32037): processIncoming
+06-20 20:43:46.395: D/jdwp(32037): processIncoming
+06-20 20:43:46.395: D/jdwp(32037): handlePacket : cmd=0x1, cmdSet=0xC7, len=0x13, id=0x400009E8, flags=0x0, dataLen=0x8
+06-20 20:43:46.397: D/jdwp(32037): processIncoming
+06-20 20:43:46.397: D/jdwp(32037): handlePacket : cmd=0x1, cmdSet=0xC7, len=0x17, id=0x400009E9, flags=0x0, dataLen=0xC
+06-20 20:43:46.400: D/jdwp(32037): processIncoming
+06-20 20:43:46.404: D/jdwp(32037): handlePacket : cmd=0x1, cmdSet=0xC7, len=0x13, id=0x400009EA, flags=0x0, dataLen=0x8
+06-20 20:43:46.405: D/jdwp(32037): processIncoming
+06-20 20:43:46.405: D/jdwp(32037): handlePacket : cmd=0x1, cmdSet=0xC7, len=0x13, id=0x400009EB, flags=0x0, dataLen=0x8
+06-20 20:43:46.478: D/Zygote(32037): fork pid : 0
+06-20 20:43:46.487: D/dalvikvm(32037): threadid=9: interp stack at 0x51c03000
+06-20 20:43:46.493: D/jdwp(32037): sendBufferedRequest : len=0x39
+06-20 20:43:46.494: D/dalvikvm(32037): threadid=10: interp stack at 0x51d0b000
+06-20 20:43:46.563: E/Trace(32037): error opening trace file: No such file or directory (2)
+06-20 20:43:46.564: D/jdwp(32037): sendBufferedRequest : len=0x35
+06-20 20:43:46.634: D/dalvikvm(32037): open_cached_dex_file : /system/framework/com.google.android.maps.jar /data/dalvik-cache/system@framework@com.google.android.maps.jar@classes.dex
+06-20 20:43:46.643: D/dalvikvm(32037): open_cached_dex_file : /data/app/com.test.weekly-1.apk /data/dalvik-cache/data@app@com.test.weekly-1.apk@classes.dex
+06-20 20:43:46.677: D/ActivityThread(32037): BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{42452b68 com.test.weekly}}
+06-20 20:43:47.243: D/dalvikvm(32037): open_cached_dex_file : /system/framework/com.android.location.provider.jar /data/dalvik-cache/system@framework@com.android.location.provider.jar@classes.dex
+06-20 20:43:47.424: D/dalvikvm(32037): open_cached_dex_file : /data/app/com.google.android.gms-2.apk /data/dalvik-cache/data@app@com.google.android.gms-2.apk@classes.dex
+06-20 20:43:47.839: D/dalvikvm(32037): create interp thread : stack size=32KB
+06-20 20:43:47.839: D/dalvikvm(32037): create new thread
+06-20 20:43:47.839: D/dalvikvm(32037): update thread list
+06-20 20:43:47.843: D/dalvikvm(32037): threadid=11: interp stack at 0x5296d000
+06-20 20:43:47.843: D/dalvikvm(32037): threadid=11: created from interp
+06-20 20:43:47.843: D/dalvikvm(32037): start new thread
+06-20 20:43:47.843: D/dalvikvm(32037): threadid=11: notify debugger
+06-20 20:43:47.843: D/dalvikvm(32037): threadid=11 (SharedPreferencesImpl-load): calling run()
+06-20 20:43:47.875: D/dalvikvm(32037): threadid=11: exiting
+06-20 20:43:47.880: D/dalvikvm(32037): threadid=11: bye!
+06-20 20:43:48.087: D/ActivityThread(32037): ACT-AM_ON_RESUME_CALLED ActivityRecord{424540e0 token=android.os.BinderProxy@424538b8 {com.test.weekly/com.test.weekly.gplus.SignInActivity}}
+06-20 20:43:48.199: D/ActivityThread(32037): ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{424540e0 token=android.os.BinderProxy@424538b8 {com.test.weekly/com.test.weekly.gplus.SignInActivity}}
+06-20 20:43:48.426: I/SurfaceTextureClient(32037): [void android::SurfaceTextureClient::init()] debug.stc.fps: 3000 ms
+06-20 20:43:48.493: D/libEGL(32037): loaded /vendor/lib/egl/libEGL_mtk.so
+06-20 20:43:48.563: D/libEGL(32037): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+06-20 20:43:48.570: D/libEGL(32037): loaded /vendor/lib/egl/libGLESv2_mtk.so
+06-20 20:43:48.678: D/OpenGLRenderer(32037): Enabling debug mode 0
+06-20 20:43:50.314: I/System.out(32037): httpget:http://192.168.1.10:8080/WeeklyService/getInfo?gid=118284753992316320379
+06-20 20:43:50.315: I/System.out(32037): http://192.168.1.10:8080/WeeklyService/getInfo?gid=118284753992316320379
+06-20 20:43:50.343: I/System.out(32037): [socket][0] connection /192.168.1.10:8080;LocalPort=35988(0)
+06-20 20:43:50.343: I/System.out(32037): [CDS]connect[/192.168.1.10:8080] tm:90
+06-20 20:43:50.344: D/Posix(32037): [Posix_connect Debug]Process com.test.weekly :8080 
+06-20 20:43:53.336: I/System.out(32037): [socket][1:35988] exception
+06-20 20:43:53.336: I/System.out(32037): [CDS]close[35988]
+06-20 20:43:53.343: I/System.out(32037): close [socket][/0.0.0.0:35988]
+06-20 20:43:53.353: W/System.err(32037): org.apache.http.conn.HttpHostConnectException: Connection to http://192.168.1.10:8080 refused
+06-20 20:43:53.378: W/System.err(32037): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+06-20 20:43:53.378: W/System.err(32037): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+06-20 20:43:53.378: W/System.err(32037): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+06-20 20:43:53.378: W/System.err(32037): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:365)
+06-20 20:43:53.378: W/System.err(32037): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+06-20 20:43:53.379: W/System.err(32037): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+06-20 20:43:53.379: W/System.err(32037): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+06-20 20:43:53.379: W/System.err(32037): 	at com.androidhive.jsonparsing.JSONfunctions.getJSONfromURL(JSONfunctions.java:36)
+06-20 20:43:53.379: W/System.err(32037): 	at com.test.weekly.gplus.SignInActivity.checkUser(SignInActivity.java:119)
+06-20 20:43:53.379: W/System.err(32037): 	at com.test.weekly.gplus.SignInActivity.onSignedIn(SignInActivity.java:173)
+06-20 20:43:53.379: W/System.err(32037): 	at com.test.weekly.gplus.PlusClientFragment.onConnected(PlusClientFragment.java:241)
+06-20 20:43:53.379: W/System.err(32037): 	at com.google.android.gms.internal.p.k(Unknown Source)
+06-20 20:43:53.379: W/System.err(32037): 	at com.google.android.gms.internal.p$f.a(Unknown Source)
+06-20 20:43:53.379: W/System.err(32037): 	at com.google.android.gms.internal.p$f.a(Unknown Source)
+06-20 20:43:53.379: W/System.err(32037): 	at com.google.android.gms.internal.p$b.p(Unknown Source)
+06-20 20:43:53.380: W/System.err(32037): 	at com.google.android.gms.internal.p$a.handleMessage(Unknown Source)
+06-20 20:43:53.380: W/System.err(32037): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-20 20:43:53.380: W/System.err(32037): 	at android.os.Looper.loop(Looper.java:153)
+06-20 20:43:53.380: W/System.err(32037): 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+06-20 20:43:53.380: W/System.err(32037): 	at java.lang.reflect.Method.invokeNative(Native Method)
+06-20 20:43:53.380: W/System.err(32037): 	at java.lang.reflect.Method.invoke(Method.java:511)
+06-20 20:43:53.380: W/System.err(32037): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:821)
+06-20 20:43:53.381: W/System.err(32037): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:584)
+06-20 20:43:53.381: W/System.err(32037): 	at dalvik.system.NativeStart.main(Native Method)
+06-20 20:43:53.381: W/System.err(32037): Caused by: java.net.ConnectException: failed to connect to /192.168.1.10 (port 8080) after 90000ms: isConnected failed: EHOSTUNREACH (No route to host)
+06-20 20:43:53.382: W/System.err(32037): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:181)
+06-20 20:43:53.382: W/System.err(32037): 	... 23 more
+06-20 20:43:53.382: W/System.err(32037): Caused by: java.net.SocketException: failed to connect to /192.168.1.10 (port 8080) after 90000ms: isConnected failed: EHOSTUNREACH (No route to host)
+06-20 20:43:53.392: W/System.err(32037): 	at libcore.io.IoBridge.isConnected(IoBridge.java:256)
+06-20 20:43:53.393: W/System.err(32037): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:178)
+06-20 20:43:53.393: W/System.err(32037): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+06-20 20:43:53.393: W/System.err(32037): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+06-20 20:43:53.394: W/System.err(32037): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+06-20 20:43:53.394: W/System.err(32037): 	at java.net.Socket.connect(Socket.java:857)
+06-20 20:43:53.395: W/System.err(32037): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+06-20 20:43:53.395: W/System.err(32037): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+06-20 20:43:53.395: W/System.err(32037): 	... 23 more
+06-20 20:43:53.395: W/System.err(32037): Caused by: libcore.io.ErrnoException: isConnected failed: EHOSTUNREACH (No route to host)
+06-20 20:43:53.397: W/System.err(32037): 	at libcore.io.IoBridge.isConnected(IoBridge.java:234)
+06-20 20:43:53.397: W/System.err(32037): 	... 30 more
+06-20 20:43:53.405: E/Buffer Error(32037): Error converting result java.lang.NullPointerException
+06-20 20:43:53.409: W/System.err(32037): java.lang.NullPointerException
+06-20 20:43:53.409: W/System.err(32037): 	at com.test.weekly.gplus.SignInActivity.checkUser(SignInActivity.java:124)
+06-20 20:43:53.409: W/System.err(32037): 	at com.test.weekly.gplus.SignInActivity.onSignedIn(SignInActivity.java:173)
+06-20 20:43:53.409: W/System.err(32037): 	at com.test.weekly.gplus.PlusClientFragment.onConnected(PlusClientFragment.java:241)
+06-20 20:43:53.409: W/System.err(32037): 	at com.google.android.gms.internal.p.k(Unknown Source)
+06-20 20:43:53.410: W/System.err(32037): 	at com.google.android.gms.internal.p$f.a(Unknown Source)
+06-20 20:43:53.410: W/System.err(32037): 	at com.google.android.gms.internal.p$f.a(Unknown Source)
+06-20 20:43:53.410: W/System.err(32037): 	at com.google.android.gms.internal.p$b.p(Unknown Source)
+06-20 20:43:53.410: W/System.err(32037): 	at com.google.android.gms.internal.p$a.handleMessage(Unknown Source)
+06-20 20:43:53.411: W/System.err(32037): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-20 20:43:53.411: W/System.err(32037): 	at android.os.Looper.loop(Looper.java:153)
+06-20 20:43:53.411: W/System.err(32037): 	at android.app.ActivityThread.main(ActivityThread.java:5086)
+06-20 20:43:53.411: W/System.err(32037): 	at java.lang.reflect.Method.invokeNative(Native Method)
+06-20 20:43:53.411: W/System.err(32037): 	at java.lang.reflect.Method.invoke(Method.java:511)
+06-20 20:43:53.411: W/System.err(32037): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:821)
+06-20 20:43:53.412: W/System.err(32037): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:584)
+06-20 20:43:53.412: W/System.err(32037): 	at dalvik.system.NativeStart.main(Native Method)
+06-20 20:44:26.778: D/OpenGLRenderer(32037): Flushing caches (mode 0)
+06-20 20:44:26.793: D/ActivityThread(32037): ACT-AM_ON_PAUSE_CALLED ActivityRecord{424540e0 token=android.os.BinderProxy@424538b8 {com.test.weekly/com.test.weekly.gplus.SignInActivity}}
+06-20 20:44:27.028: D/OpenGLRenderer(32037): Flushing caches (mode 0)
+06-20 20:44:27.202: D/ActivityThread(32037): ACT-AM_ON_RESUME_CALLED ActivityRecord{424540e0 token=android.os.BinderProxy@424538b8 {com.test.weekly/com.test.weekly.gplus.SignInActivity}}
+06-20 20:44:27.207: D/ActivityThread(32037): ACT-RELAUNCH_ACTIVITY handled : 0 / ActivityRecord{4255d390 token=android.os.BinderProxy@424538b8 no component name}
+06-20 20:44:27.235: I/SurfaceTextureClient(32037): [void android::SurfaceTextureClient::init()] debug.stc.fps: 3000 ms
+06-20 20:44:27.290: I/System.out(32037): httpget:http://192.168.1.10:8080/WeeklyService/getInfo?gid=118284753992316320379
+06-20 20:44:27.291: I/System.out(32037): http://192.168.1.10:8080/WeeklyService/getInfo?gid=118284753992316320379
+06-20 20:44:27.299: I/System.out(32037): [socket][1] connection /192.168.1.10:8080;LocalPort=50804(0)
+06-20 20:44:27.299: I/System.out(32037): [CDS]connect[/192.168.1.10:8080] tm:90
+06-20 20:44:27.299: D/Posix(32037): [Posix_connect Debug]Process com.test.weekly :8080 
+06-20 20:44:30.387: I/System.out(32037): [socket][/192.168.1.9:50804] connected
+06-20 20:44:30.387: I/System.out(32037): [CDS]rx timeout:0
+06-20 20:44:30.404: I/System.out(32037): >doSendRequest
+06-20 20:44:30.405: I/System.out(32037): <doSendRequest
+06-20 20:44:30.505: I/Choreographer(32037): Skipped 96 frames!  The application may be doing too much work on its main thread.
+06-20 20:44:30.584: D/ActivityThread(32037): ACT-AM_ON_PAUSE_CALLED ActivityRecord{424540e0 token=android.os.BinderProxy@424538b8 {com.test.weekly/com.test.weekly.gplus.SignInActivity}}
+06-20 20:44:30.629: D/ActivityThread(32037): ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@424538b8
+06-20 20:44:30.723: D/ActivityThread(32037): ACT-AM_ON_RESUME_CALLED ActivityRecord{42580f28 token=android.os.BinderProxy@42580710 {com.test.weekly/com.test.weekly.gplus.Signup}}
+06-20 20:44:30.727: D/ActivityThread(32037): ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{42580f28 token=android.os.BinderProxy@42580710 {com.test.weekly/com.test.weekly.gplus.Signup}}
+06-20 20:44:30.730: D/OpenGLRenderer(32037): Flushing caches (mode 0)
+06-20 20:44:30.752: I/SurfaceTextureClient(32037): [void android::SurfaceTextureClient::init()] debug.stc.fps: 3000 ms
+06-20 20:44:30.977: I/SurfaceTextureClient(32037): [void android::SurfaceTextureClient::init()] debug.stc.fps: 3000 ms
+06-20 20:44:31.027: D/ActivityThread(32037): ACT-STOP_ACTIVITY_HIDE handled : 0 / android.os.BinderProxy@424538b8
+06-20 20:44:31.044: D/dalvikvm(32037): threadid=11: interp stack at 0x530d7000
+06-20 20:44:31.358: D/OpenGLRenderer(32037): Flushing caches (mode 0)
+06-20 20:44:31.358: D/ActivityThread(32037): ACT-AM_ON_PAUSE_CALLED ActivityRecord{42580f28 token=android.os.BinderProxy@42580710 {com.test.weekly/com.test.weekly.gplus.Signup}}
+06-20 20:44:31.366: D/OpenGLRenderer(32037): Flushing caches (mode 0)
+06-20 20:44:31.458: D/ActivityThread(32037): ACT-AM_ON_RESUME_CALLED ActivityRecord{42580f28 token=android.os.BinderProxy@42580710 {com.test.weekly/com.test.weekly.gplus.Signup}}
+06-20 20:44:31.468: D/ActivityThread(32037): ACT-RELAUNCH_ACTIVITY handled : 0 / ActivityRecord{4259d068 token=android.os.BinderProxy@42580710 no component name}
+06-20 20:44:31.470: V/InputMethodManager(32037): Not IME target window, ignoring
+06-20 20:44:31.484: D/dalvikvm(32037): GC_CONCURRENT freed 543K, 8% free 9098K/9847K, paused 12ms+6ms, total 65ms
+06-20 20:44:31.488: I/System.out(32037): [CDS]close[50804]
+06-20 20:44:31.491: I/System.out(32037): close [socket][/0.0.0.0:50804]
+06-20 20:44:31.491: I/System.out(32037): close [socket][/0.0.0.0:50804]
+06-20 20:44:31.508: I/SurfaceTextureClient(32037): [void android::SurfaceTextureClient::init()] debug.stc.fps: 3000 ms
+06-20 20:44:31.553: V/InputMethodManager(32037): onWindowFocus: android.widget.EditText@425a9530 softInputMode=32 first=true flags=#1810100
+06-20 20:44:31.553: V/InputMethodManager(32037): Starting input: view=android.widget.EditText@425a9530
+06-20 20:44:31.556: V/InputMethodManager(32037): Starting input: tba=android.view.inputmethod.EditorInfo@4255d4b0 ic=com.android.internal.widget.EditableInputConnection@4251eea8
+06-20 20:44:31.557: V/InputMethodManager(32037): START INPUT: android.widget.EditText@425a9530 ic=com.android.internal.widget.EditableInputConnection@4251eea8 tba=android.view.inputmethod.EditorInfo@4255d4b0 controlFlags=#107
+06-20 20:44:31.563: V/InputMethodManager(32037): Starting input: Bind result=InputBindResult{null com.touchtype.swiftkey.phone.trial/com.touchtype.KeyboardService #369}
+06-20 20:44:31.613: V/InputMethodManager(32037): Starting input: view=android.widget.EditText@425a9530
+06-20 20:44:31.614: V/InputMethodManager(32037): Starting input: tba=android.view.inputmethod.EditorInfo@424ae508 ic=com.android.internal.widget.EditableInputConnection@424ae270
+06-20 20:44:31.674: E/SpannableStringBuilder(32037): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-20 20:44:31.674: E/SpannableStringBuilder(32037): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-20 20:44:31.856: V/InputMethodManager(32037): focusOut: android.widget.EditText@425a9530 mServedView=android.widget.EditText@425a9530 winFocus=false
+06-20 20:44:36.694: V/InputMethodManager(32037): onWindowFocus: android.widget.EditText@425a9530 softInputMode=32 first=false flags=#1810100
+06-20 20:44:36.725: I/SurfaceTextureClient(32037): [0x534866b8] frames:3, duration:5.143000, fps:0.583306
+06-20 20:44:39.735: I/SurfaceTextureClient(32037): [0x534866b8] frames:6, duration:3.009000, fps:1.993613
+06-20 20:44:40.078: V/Provider/Setting(32037): invalidate [system]: current 30 != cached 0
+06-20 20:44:40.087: V/Provider/Setting(32037): from db cache, name = auto_caps value = null
+06-20 20:44:40.090: V/Provider/Setting(32037): from db cache, name = auto_replace value = null
+06-20 20:44:40.090: V/Provider/Setting(32037): from db cache, name = auto_punctuate value = null
+06-20 20:44:40.091: V/Provider/Setting(32037): from db cache, name = show_password value = null
+06-20 20:44:40.094: E/SpannableStringBuilder(32037): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-20 20:44:40.094: E/SpannableStringBuilder(32037): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-20 20:44:40.192: V/InputMethodManager(32037): focusOut: android.widget.EditText@425a9530 mServedView=android.widget.EditText@425a9530 winFocus=false
+06-20 20:44:42.489: D/ActivityThread(32037): ACT-AM_ON_PAUSE_CALLED ActivityRecord{42580f28 token=android.os.BinderProxy@42580710 {com.test.weekly/com.test.weekly.gplus.Signup}}
+06-20 20:44:42.496: D/ActivityThread(32037): ACT-PAUSE_ACTIVITY handled : 0 / android.os.BinderProxy@42580710
+06-20 20:44:42.504: D/ActivityThread(32037): ACT-STOP_ACTIVITY_SHOW handled : 0 / android.os.BinderProxy@42580710
+06-20 20:44:44.033: I/SurfaceTextureClient(32037): [0x534866b8] frames:2, duration:4.298000, fps:0.465317
+06-20 20:44:45.070: D/ActivityThread(32037): ACT-AM_ON_RESUME_CALLED ActivityRecord{42580f28 token=android.os.BinderProxy@42580710 {com.test.weekly/com.test.weekly.gplus.Signup}}
+06-20 20:44:45.071: D/ActivityThread(32037): ACT-RESUME_ACTIVITY handled : 1 / android.os.BinderProxy@42580710
+06-20 20:44:45.112: V/InputMethodManager(32037): onWindowFocus: android.widget.EditText@425a9530 softInputMode=288 first=false flags=#1810100
+06-20 20:44:45.112: V/InputMethodManager(32037): Starting input: view=android.widget.EditText@425a9530
+06-20 20:44:45.114: V/InputMethodManager(32037): Starting input: tba=android.view.inputmethod.EditorInfo@4249a2d8 ic=com.android.internal.widget.EditableInputConnection@424996f0
+06-20 20:44:45.115: V/InputMethodManager(32037): START INPUT: android.widget.EditText@425a9530 ic=com.android.internal.widget.EditableInputConnection@424996f0 tba=android.view.inputmethod.EditorInfo@4249a2d8 controlFlags=#103
+06-20 20:44:45.122: V/InputMethodManager(32037): Starting input: Bind result=InputBindResult{com.android.internal.view.IInputMethodSession$Stub$Proxy@42499740 com.touchtype.swiftkey.phone.trial/com.touchtype.KeyboardService #370}
+06-20 20:44:45.154: E/SpannableStringBuilder(32037): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-20 20:44:45.154: E/SpannableStringBuilder(32037): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-20 20:44:46.057: E/SpannableStringBuilder(32037): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-20 20:44:46.057: E/SpannableStringBuilder(32037): SPAN_EXCLUSIVE_EXCLUSIVE spans cannot have a zero length
+06-20 20:44:47.135: I/SurfaceTextureClient(32037): [0x534866b8] frames:8, duration:3.101000, fps:2.579269
+06-20 20:44:50.560: I/SurfaceTextureClient(32037): [0x534866b8] frames:9, duration:3.425000, fps:2.627195
+06-20 20:44:53.922: I/SurfaceTextureClient(32037): [0x534866b8] frames:11, duration:3.361000, fps:3.272374
+06-20 20:44:57.302: I/SurfaceTextureClient(32037): [0x534866b8] frames:9, duration:3.379000, fps:2.663040
+06-20 20:44:57.913: V/Provider/Setting(32037): from db cache, name = sound_effects_enabled value = 0
+06-20 20:44:58.024: I/System.out(32037): httpget:http://192.168.1.10:8080/WeeklyService/Signup?gid=118284753992316320379&username=Sourabh C A&number=9789155342&lati=0.0&longi=0.0
+06-20 20:44:58.025: I/System.out(32037): http://192.168.1.10:8080/WeeklyService/Signup?gid=118284753992316320379&username=Sourabh%20C%20A&number=9789155342&lati=0.0&longi=0.0
+06-20 20:44:58.027: I/System.out(32037): [socket][2] connection /192.168.1.10:8080;LocalPort=54015(0)
+06-20 20:44:58.028: I/System.out(32037): [CDS]connect[/192.168.1.10:8080] tm:90
+06-20 20:44:58.029: D/Posix(32037): [Posix_connect Debug]Process com.test.weekly :8080 
+06-20 20:44:58.140: I/System.out(32037): [socket][/192.168.1.9:54015] connected
+06-20 20:44:58.141: I/System.out(32037): [CDS]rx timeout:0
+06-20 20:44:58.142: I/System.out(32037): >doSendRequest
+06-20 20:44:58.143: I/System.out(32037): <doSendRequest
+06-20 20:44:58.381: D/ActivityThread(32037): ACT-AM_ON_PAUSE_CALLED ActivityRecord{42580f28 token=android.os.BinderProxy@42580710 {com.test.weekly/com.test.weekly.gplus.Signup}}
+06-20 20:44:58.407: D/ActivityThread(32037): ACT-PAUSE_ACTIVITY handled : 1 / android.os.BinderProxy@42580710
+06-20 20:44:58.426: I/SurfaceTextureClient(32037): [void android::SurfaceTextureClient::init()] debug.stc.fps: 3000 ms
+06-20 20:44:58.428: V/InputMethodManager(32037): focusOut: android.widget.EditText@425a9530 mServedView=android.widget.EditText@425a9530 winFocus=false
+06-20 20:44:58.638: D/dalvikvm(32037): create interp thread : stack size=32KB
+06-20 20:44:58.638: D/dalvikvm(32037): create new thread
+06-20 20:44:58.641: D/dalvikvm(32037): update thread list
+06-20 20:44:58.642: D/dalvikvm(32037): threadid=12: interp stack at 0x534ab000
+06-20 20:44:58.642: D/dalvikvm(32037): threadid=12: created from interp
+06-20 20:44:58.642: D/dalvikvm(32037): start new thread
+06-20 20:44:58.642: D/dalvikvm(32037): threadid=12: notify debugger
+06-20 20:44:58.642: D/dalvikvm(32037): threadid=12 (SharedPreferencesImpl-load): calling run()
+06-20 20:44:58.644: D/dalvikvm(32037): threadid=12: exiting
+06-20 20:44:58.644: D/dalvikvm(32037): threadid=12: bye!
+06-20 20:44:58.672: D/ActivityThread(32037): ACT-AM_ON_RESUME_CALLED ActivityRecord{4256ef80 token=android.app.LocalActivityManager$LocalActivityRecord@42558518 {com.test.weekly/com.test.weekly.dummyui.EventCreation}}
+06-20 20:44:58.672: D/ActivityThread(32037): ACT-AM_ON_RESUME_CALLED ActivityRecord{425151a8 token=android.os.BinderProxy@425303e0 {com.test.weekly/com.test.weekly.dummyui.MainActivity}}
+06-20 20:44:58.677: D/ActivityThread(32037): ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{425151a8 token=android.os.BinderProxy@425303e0 {com.test.weekly/com.test.weekly.dummyui.MainActivity}}
+06-20 20:44:58.707: V/InputMethodManager(32037): Not IME target window, ignoring
+06-20 20:44:58.863: I/SurfaceTextureClient(32037): [void android::SurfaceTextureClient::init()] debug.stc.fps: 3000 ms
+06-20 20:44:58.998: V/InputMethodManager(32037): onWindowFocus: com.android.internal.policy.impl.PhoneWindow$DecorView@4246bf60 softInputMode=272 first=true flags=#1810100
+06-20 20:44:58.999: V/InputMethodManager(32037): Starting input: view=com.android.internal.policy.impl.PhoneWindow$DecorView@4246bf60
+06-20 20:44:58.999: V/InputMethodManager(32037): Starting input: tba=android.view.inputmethod.EditorInfo@42520898 ic=null
+06-20 20:44:58.999: V/InputMethodManager(32037): START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView@4246bf60 ic=null tba=android.view.inputmethod.EditorInfo@42520898 controlFlags=#105
+06-20 20:44:59.011: V/InputMethodManager(32037): Starting input: Bind result=InputBindResult{com.android.internal.view.IInputMethodSession$Stub$Proxy@42521428 com.touchtype.swiftkey.phone.trial/com.touchtype.KeyboardService #371}
+06-20 20:44:59.062: D/OpenGLRenderer(32037): Flushing caches (mode 0)
+06-20 20:44:59.101: I/SurfaceTextureClient(32037): [void android::SurfaceTextureClient::init()] debug.stc.fps: 3000 ms
+06-20 20:44:59.337: D/OpenGLRenderer(32037): Flushing caches (mode 0)
+06-20 20:44:59.340: D/ActivityThread(32037): ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@42580710
+06-20 20:45:00.049: I/SurfaceTextureClient(32037): [void android::SurfaceTextureClient::init()] debug.stc.fps: 3000 ms
+06-20 20:45:03.568: I/SurfaceTextureClient(32037): [void android::SurfaceTextureClient::init()] debug.stc.fps: 3000 ms
+06-20 20:45:47.799: D/dalvikvm(32037): GC_EXPLICIT freed 326K, 7% free 9358K/9975K, paused 2ms+4ms, total 43ms
+06-20 20:45:47.800: D/ActivityThread(32037): LOW_MEMORY handled : 0 / null
+06-20 20:45:47.812: I/System.out(32037): [CDS]close[54015]
+06-20 20:45:47.813: I/System.out(32037): close [socket][/0.0.0.0:54015]
+06-20 20:45:47.813: I/System.out(32037): close [socket][/0.0.0.0:54015]
+06-20 20:46:54.954: D/dalvikvm(32037): GC_EXPLICIT freed 125K, 8% free 9234K/9975K, paused 1ms+3ms, total 36ms
+06-20 20:46:54.954: D/ActivityThread(32037): LOW_MEMORY handled : 0 / null
+06-20 20:48:25.646: D/OpenGLRenderer(32037): Flushing caches (mode 0)
+06-20 20:48:25.865: D/ActivityThread(32037): ACT-AM_ON_PAUSE_CALLED ActivityRecord{4256ef80 token=android.app.LocalActivityManager$LocalActivityRecord@42558518 {com.test.weekly/com.test.weekly.dummyui.EventCreation}}
+06-20 20:48:25.865: D/ActivityThread(32037): ACT-AM_ON_PAUSE_CALLED ActivityRecord{425151a8 token=android.os.BinderProxy@425303e0 {com.test.weekly/com.test.weekly.dummyui.MainActivity}}
+06-20 20:48:25.890: D/OpenGLRenderer(32037): Flushing caches (mode 0)
+06-20 20:48:26.041: D/ActivityThread(32037): ACT-AM_ON_RESUME_CALLED ActivityRecord{4253e348 token=android.app.LocalActivityManager$LocalActivityRecord@42481148 {com.test.weekly/com.test.weekly.dummyui.EventCreation}}
+06-20 20:48:26.041: D/ActivityThread(32037): ACT-AM_ON_RESUME_CALLED ActivityRecord{425151a8 token=android.os.BinderProxy@425303e0 {com.test.weekly/com.test.weekly.dummyui.MainActivity}}
+06-20 20:48:26.046: D/ActivityThread(32037): ACT-RELAUNCH_ACTIVITY handled : 0 / ActivityRecord{425a27b8 token=android.os.BinderProxy@425303e0 no component name}
+06-20 20:48:26.059: V/InputMethodManager(32037): Not IME target window, ignoring
+06-20 20:48:26.156: I/SurfaceTextureClient(32037): [void android::SurfaceTextureClient::init()] debug.stc.fps: 3000 ms
+06-20 20:48:26.241: V/InputMethodManager(32037): onWindowFocus: com.android.internal.policy.impl.PhoneWindow$DecorView@4246a520 softInputMode=272 first=true flags=#1810100
+06-20 20:48:26.241: V/InputMethodManager(32037): Starting input: view=com.android.internal.policy.impl.PhoneWindow$DecorView@4246a520
+06-20 20:48:26.241: V/InputMethodManager(32037): Starting input: tba=android.view.inputmethod.EditorInfo@425918c8 ic=null
+06-20 20:48:26.241: V/InputMethodManager(32037): START INPUT: com.android.internal.policy.impl.PhoneWindow$DecorView@4246a520 ic=null tba=android.view.inputmethod.EditorInfo@425918c8 controlFlags=#105
+06-20 20:48:26.242: V/InputMethodManager(32037): Starting input: Bind result=InputBindResult{com.android.internal.view.IInputMethodSession$Stub$Proxy@424b7838 com.touchtype.swiftkey.phone.trial/com.touchtype.KeyboardService #372}
+06-20 20:49:50.216: D/VelocityTracker(32037): Couldn't open '/dev/touch' (No such file or directory)
+06-20 20:49:50.216: D/VelocityTracker(32037): tpd read x fail: Bad file number
+06-20 20:49:50.216: D/VelocityTracker(32037): tpd read y fail: Bad file number
+06-20 20:49:50.335: I/SurfaceTextureClient(32037): [0x534a5640] frames:16, duration:84.116997, fps:0.190210

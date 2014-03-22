@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+            android:id="@+id/personname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="INVITED PERSON"
+            android:textAllCaps="true"
+            android:textSize="20dp"/>
+
+    <com.tomdignan.nifty.NiftyTextView
+        xmlns:nifty="http://schemas.tomdignan.com/nifty"
+        android:id="@+id/status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="INVITED PERSON"
+        android:textAllCaps="true"
+        android:textAlignment="viewEnd"
+        android:textSize="13dp"
+        android:textColor="#adadad"
+        nifty:typeface="fonts/SofiaProLight.otf" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        />
+    
+</LinearLayout>

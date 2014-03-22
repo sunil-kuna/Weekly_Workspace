@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fff"> 
+    
+    <Spinner
+        android:id="@+id/spr_place_type"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textColor="#000"
+        android:layout_alignParentTop="true" />
+    
+    <Button
+        android:drawSelectorOnTop="true" 
+        android:id="@+id/btn_find"
+		android:layout_width="wrap_content"
+		android:textColor="#fff"
+		android:background="#30AC59"
+		android:layout_height="60dp"		
+		android:layout_alignParentTop="true"
+		android:layout_toRightOf="@id/spr_place_type"
+		android:text="find" />    
+		
+    
+    <!-- Show on Map button -->
+    <Button
+        android:drawSelectorOnTop="true" 
+        android:id="@+id/btn_show_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Places on Map"
+        android:textColor="#fff"
+        android:background="#30AC59"
+  		android:layout_below="@id/spr_place_type"
+        android:layout_marginTop="10dip"/>
+    
+    <!--  List view -->
+    <ListView
+        android:drawSelectorOnTop="true" 
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_below="@id/btn_show_map"/>
+
+    <EditText
+        android:drawSelectorOnTop="true" 
+        android:id="@+id/mapsearchet"
+        android:layout_width="100dp"
+        android:textColor="#000"
+        
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:drawSelectorOnTop="true" 
+        android:id="@+id/Searchnearby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="#000"
+        android:layout_below="@+id/mapsearchet"
+        android:text="Nearby" />
+ 
+</RelativeLayout>

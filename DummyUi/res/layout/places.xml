@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FEFEFE" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+    <Button
+        android:drawSelectorOnTop="true" 
+        android:layout_margin="2dp"
+        android:id="@+id/btn_find"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:background="@drawable/search" />
+
+    <EditText
+        android:drawSelectorOnTop="true" 
+        android:layout_margin="2dp"
+        android:id="@+id/searchet"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_weight=".0001"
+        android:background="@drawable/editshadow"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="#000" />
+<LinearLayout
+        android:drawSelectorOnTop="true" 
+     android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:orientation="vertical" 
+    android:gravity="center" >
+   <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+   android:layout_width="wrap_content"
+   android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:text="NEARBY" />
+        <CheckBox
+            android:id="@+id/placesSearchnearby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+        </LinearLayout>
+    </LinearLayout>
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">"
+
+<LinearLayout
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:drawSelectorOnTop="true" 
+        android:id="@+id/coffee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            
+            android:layout_weight="0.08" >
+"
+
+           <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+                android:padding="5dp"
+                android:id="@+id/textView1"
+                android:layout_width="290dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:text="Coffee"
+                android:textColor="#000"
+                android:textAllCaps="true"
+                android:textSize="35dp" />
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:text="  " />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="#ED1B24"
+            android:text="  " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:drawSelectorOnTop="true" 
+       android:id="@+id/restaurant"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            
+            android:layout_weight="0.08" >
+"
+
+           <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+                android:id="@+id/textView1"
+                android:layout_width="290dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                 android:text="Restaurants" 
+                android:textColor="#000"
+                android:textAllCaps="true"
+                android:textSize="35dp" 
+                 android:padding="5dp"/>
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:text="  " />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="#54BB45"
+            android:text="  " />
+    </LinearLayout>
+
+        
+     
+    <LinearLayout
+        android:drawSelectorOnTop="true" 
+       android:id="@+id/shoppingmalls"
+           android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            
+            android:layout_weight="0.08" >
+"
+
+           <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+                android:id="@+id/textView1"
+                android:layout_width="290dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:text="Shopping Malls" 
+                android:textColor="#000"
+                android:textAllCaps="true"
+                android:textSize="35dp" 
+                 android:padding="5dp"/>
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:text="  " />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="#2291D8"
+            android:text="  " />
+    </LinearLayout>
+           
+    <LinearLayout
+        android:drawSelectorOnTop="true" 
+     android:id="@+id/Movies"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            
+            android:layout_weight="0.08" >
+"
+
+           <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+                android:id="@+id/textView1"
+                android:layout_width="290dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:text="Movies"
+                android:textColor="#000"
+                android:textAllCaps="true"
+                android:textSize="35dp" 
+                 android:padding="5dp"/>
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:text="  " />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="#E5EC47"
+            android:text="  " />
+    </LinearLayout>
+        
+     <LinearLayout
+        android:drawSelectorOnTop="true" 
+       android:id="@+id/pubs"
+    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            
+            android:layout_weight="0.08" >
+"
+
+           <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+                android:id="@+id/textView1"
+                android:layout_width="290dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:text="pubs"  
+                android:textColor="#000"
+                android:textAllCaps="true"
+                android:textSize="35dp" 
+                 android:padding="5dp"/>
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:text="  " />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="#ED761C"
+            android:text="  " />
+    </LinearLayout>
+       
+     <LinearLayout
+        android:drawSelectorOnTop="true" 
+       android:id="@+id/stadiums"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            
+            android:layout_weight="0.08" >
+"
+
+           <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+                android:id="@+id/textView1"
+                android:layout_width="290dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+    			android:text="Stadiums" 
+               android:textColor="#000"
+                android:textAllCaps="true"
+                android:textSize="35dp" 
+                 android:padding="5dp"/>
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:text="  " />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="#54BB45"
+            android:text="  " />
+    </LinearLayout>
+           <LinearLayout
+        android:drawSelectorOnTop="true" 
+      android:id="@+id/bars"
+      android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            
+            android:layout_weight="0.08" >
+"
+
+           <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+                android:id="@+id/textView1"
+                android:layout_width="290dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+       			android:text="Bars"
+                android:textColor="#000"
+                android:textAllCaps="true"
+                android:textSize="35dp" 
+                 android:padding="5dp"/>
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:text="  " />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="#ED1B24"
+            android:text="  " />
+    </LinearLayout>
+        
+    <LinearLayout
+        android:drawSelectorOnTop="true" 
+        android:id="@+id/amusementparks"
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            
+            android:layout_weight="0.08" >
+"
+
+           <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+                android:id="@+id/textView1"
+                android:layout_width="290dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+               android:text="Amusement Parks" 
+    			 android:textColor="#000"
+                android:textAllCaps="true"
+                android:textSize="35dp" 
+                 android:padding="5dp"/>
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:text="  " />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="#2291D7"
+            android:text="  " />
+    </LinearLayout>
+           <LinearLayout
+        android:drawSelectorOnTop="true" 
+       android:id="@+id/park"
+  	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            
+            android:layout_weight="0.08" >
+"
+
+           <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+                android:id="@+id/textView1"
+                android:layout_width="290dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:text="parks nearby" 
+                android:textColor="#000"
+                android:textAllCaps="true"
+                android:textSize="35dp" 
+                 android:padding="5dp"/>
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:text="  " />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="#E5545A"
+            android:text="  " />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

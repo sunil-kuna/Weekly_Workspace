@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="60dp"
+     android:background="@drawable/dockbarstyle"
+      
+     android:orientation="vertical" >
+        
+ <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+            android:id="@+id/venuesmalltv"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:text="FRIENDS"
+            android:textSize="35dp" />
+
+
+</LinearLayout>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+    >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ListView
+        android:drawSelectorOnTop="true" 
+        android:id="@+id/contacts_person_list"
+        android:layout_width="fill_parent"
+        android:layout_height="450dp" />
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:padding="17dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+   <com.tomdignan.nifty.NiftyButton
+        android:drawSelectorOnTop="true" 
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+	
+        android:padding="18dp"
+        android:background="#08A632"
+        android:textColor="#fff"
+        android:id="@+id/contacts_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE" />
+
+    <com.tomdignan.nifty.NiftyButton
+        android:drawSelectorOnTop="true" 
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+	
+        android:id="@+id/contacts_update"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#08A632"
+        android:padding="18dp"
+        android:text="UPDATE"
+        android:textColor="#fff" />
+
+</RelativeLayout>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

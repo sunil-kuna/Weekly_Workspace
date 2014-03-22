@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee" >
+
+  <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#33b5e5"
+            android:orientation="horizontal" 
+            android:weightSum="100" android:id="@+id/relativeLayout1">
+
+        <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+             android:id="@+id/purposetv"
+             android:layout_width="wrap_content"
+             android:layout_height="fill_parent"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:gravity="center"
+             android:paddingLeft="10dp"
+             android:text="Week-ly Signup"
+             android:textAlignment="center"
+             android:textColor="#fff"
+             android:textSize="30dp" />
+
+        </RelativeLayout>
+
+   <com.tomdignan.nifty.NiftyButton
+        android:drawSelectorOnTop="true" 
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+        android:padding="18dp"
+        android:id="@+id/sumbitPhnm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_num"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="#30AC59"
+        android:textColor="#fff"
+        android:text="Submit PhoneNumber" />
+
+ <com.tomdignan.nifty.NiftyButton
+        android:drawSelectorOnTop="true" 
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+        android:padding="18dp"
+        android:background="#30AC59"
+        android:textColor="#fff"
+        android:id="@+id/submitcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Submit Code" />
+
+   <com.tomdignan.nifty.NiftyEditText
+        android:drawSelectorOnTop="true" 
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+        android:id="@+id/phone_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        
+        android:inputType="number"
+        android:textColor="#000"
+        android:hint="Enter the Phone Number"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.tomdignan.nifty.NiftyEditText
+        android:drawSelectorOnTop="true" 
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+        android:id="@+id/Code"
+        android:textColor="#000"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sumbitPhnm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:ems="6"
+        android:hint="Enter Code "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

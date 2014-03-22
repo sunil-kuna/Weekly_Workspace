@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   
+         >
+         <LinearLayout 
+              android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip"
+         >
+    
+    
+ <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+     android:id="@+id/reference"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+     <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+     android:id="@+id/name"
+        android:textColor="#000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16dip"
+        android:textAllCaps="true"/>"
+     
+     
+    <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+         android:id="@+id/vicinity"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:textAllCaps="true"
+         android:text="TextView" />
+
+    
+</LinearLayout>
+<TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:text=""
+        android:background="#000" />
+</LinearLayout>

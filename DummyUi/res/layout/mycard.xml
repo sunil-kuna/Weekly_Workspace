@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="horizontal"
+    >
+
+ <TextView
+      android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="   " 
+            android:background="#00c"
+            android:id="@+id/colorsegment"/>
+     <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+   android:alpha="0.8"
+   android:padding="10dp"
+    android:orientation="vertical" 
+   > <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:padding="2dp"
+        >
+
+        <TextView
+            android:id="@+id/cardtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textColor="#0a0a33"
+            android:textSize="33dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+
+       <TextView
+            android:id="@+id/carddate"
+          android:textSize="20dp" 
+           android:textAlignment="viewEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+             android:textColor="#0a0a33"
+            />
+
+ </LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       <TextView
+            android:id="@+id/cardvenue"
+          android:textSize="20dp"
+            android:textAlignment="viewEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:maxLines="1"
+            android:ems="80"
+             android:textColor="#0a0a33"
+            />
+
+ </LinearLayout>
+    
+
+ 
+</LinearLayout>
+ </LinearLayout>

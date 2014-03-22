@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:staggered="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="4dp"
+     android:weightSum="100">
+     
+    <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:layout_weight="5"
+     android:paddingLeft="20dp"
+     android:background="@drawable/titlebarback"
+      
+     android:orientation="vertical" >
+        
+ <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+            android:id="@+id/titlechattv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:textColor="#ffffff"
+            android:text="CREATE EVENT"
+            android:textSize="30dp" />
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:padding="3dp"
+    android:layout_weight="93" >
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+   <ListView
+        android:id="@+id/chatlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+         />
+
+</RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_weight="2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:orientation="horizontal"
+    android:padding="2dp" 
+    android:weightSum="100">
+
+    <EditText
+        android:drawSelectorOnTop="true" 
+        android:id="@+id/texttosend"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="90"
+        android:textColor="#000"
+        android:ems="10" />
+
+    <Button
+        android:drawSelectorOnTop="true" 
+        android:id="@+id/sendText"
+        android:layout_weight="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#30AC59"
+        android:text="Send"
+        android:textColor="#fff" />
+</LinearLayout>
+
+</LinearLayout>

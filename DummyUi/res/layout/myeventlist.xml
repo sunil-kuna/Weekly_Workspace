@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:staggered="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:alpha="1"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/mystaggeredGridView"
+        android:layout_width="match_parent"
+        android:layout_height="341dp"
+        android:layout_above="@+id/refresh_my_list"
+        android:layout_weight="1.05"
+        android:drawSelectorOnTop="true"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+		android:background="@drawable/dockbarstyle"
+>
+<LinearLayout 
+        android:drawSelectorOnTop="true" 
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:padding="3dp"
+        android:gravity="center"
+        >
+        <Button
+            android:gravity="center_horizontal"
+            android:id="@+id/refresh_my_list"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/refresh"
+            android:paddingTop="5dp" />
+
+         <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+    		 android:gravity="center"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REFRESH" 
+            android:textColor="#000"
+            android:textSize="17dp"
+            />
+        
+</LinearLayout>
+<LinearLayout 
+        android:drawSelectorOnTop="true" 
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+            
+        android:padding="3dp"
+        android:gravity="center"
+        >
+        <ImageButton
+            android:gravity="center_horizontal"
+            android:id="@+id/myplus"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:paddingTop="5dp" 
+            android:background="@drawable/plus" />
+        <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+    		 android:gravity="center"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEW EVENT" 
+            android:textColor="#000"
+            android:textSize="17dp"
+            />
+        
+</LinearLayout>
+ </RelativeLayout>
+</LinearLayout>

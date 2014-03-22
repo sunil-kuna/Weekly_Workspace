@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="wrap_content"
+     android:layout_height="match_parent"
+
+     android:orientation="vertical"
+     ><LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:background="@drawable/titlebarback"
+      android:weightSum="100"
+     android:orientation="horizontal" >
+        
+ <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+            android:gravity="center"
+            android:id="@+id/titlemypurposetv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:textColor="#ffffff"
+            android:text="CREATE EVENT"
+            android:textSize="30dp"
+            android:layout_weight="80" />
+        <Button
+        android:drawSelectorOnTop="true" 
+             android:layout_weight="10"
+             android:id="@+id/myshare"
+             android:layout_width="50dp"
+             android:layout_height="fill_parent"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentTop="true"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+             android:background="@drawable/share"
+              />
+         <Button
+        android:drawSelectorOnTop="true" 
+             android:padding="3dp"
+            android:layout_margin="3dp"
+             android:layout_weight="10"
+             android:id="@+id/editmyevent"
+             android:layout_width="50dp"
+             android:layout_height="fill_parent"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentTop="true"
+            
+             android:background="@drawable/edit"
+              />
+
+</LinearLayout>
+<com.test.weeklly.dummyui.VerticalScrollview
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+     >
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+         android:orientation="vertical"
+         
+         >
+         
+        <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+         android:orientation="vertical"
+         android:layout_margin="20dp"
+         >
+         <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+         android:orientation="horizontal"
+         android:padding="10dp"
+         android:background="@drawable/dockbarstyle">
+         <ImageView
+              android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@drawable/abs__ab_bottom_solid_light_holo"
+    />
+        <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+	       android:ems="20"
+	       android:textSize="20dp"
+	       android:textAllCaps="true"
+	       android:textAlignment="center"
+	       android:id="@+id/mypurposetv"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:hint="INSERT MEETUP NAME HERE"
+	       android:padding="10dp"
+	       android:textColor="#000"
+	      />
+	      
+         
+         </LinearLayout>
+         <LinearLayout
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+         android:orientation="horizontal"
+         android:background="#000"
+         android:weightSum="100"
+         >
+         <LinearLayout
+             android:layout_weight="80"
+        android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+         android:orientation="vertical"
+         android:padding="20dp"
+         android:background="#ECECEC"
+         >
+	       <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+            android:id="@+id/mytimetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:text="SET TIME"
+            android:textSize="20dp"/>
+   
+	       <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+            android:id="@+id/mydatetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#000"
+            android:text="SET DATE"
+            android:textAllCaps="true"
+            android:textSize="20dp"/>
+	         
+   <LinearLayout
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         >
+    <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="VENUE : "
+            android:textAllCaps="true"
+            android:textSize="20dp"/>
+   <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+            android:id="@+id/myVenuetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#000"
+            android:textAllCaps="true"
+            android:textSize="20dp"/>
+   </LinearLayout>
+         </LinearLayout>
+          <LinearLayout
+        android:layout_width="50dp"
+        android:layout_weight="20"
+    android:layout_height="fill_parent"
+         android:orientation="vertical"
+         android:background="@drawable/titlebarback"
+         >
+   
+         </LinearLayout>
+         </LinearLayout>
+         </LinearLayout>
+         <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+               android:gravity="center"
+	       android:id="@+id/myDesctv"
+	       android:textColor="#000"
+	       android:layout_width="fill_parent"
+	       android:layout_height="100dp"
+	       android:ems="13"
+	       android:layout_marginLeft="20dp"
+	       android:layout_marginRight="20dp"
+	       android:layout_marginBottom="10dp"
+	       android:background="@drawable/dockbarstyle"
+	       android:padding="15dp"
+	      android:hint="Describe Event"
+	      
+           />
+<com.tomdignan.nifty.NiftyButton
+        android:drawSelectorOnTop="true" 
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+            android:id="@+id/mysuggestions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="BUZZ" 
+             android:textColor="#fff"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:textSize="30dp"
+            android:background="#E83E3F"/>
+  <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+	       android:ems="20"
+	       android:textSize="20dp"
+	       android:textAllCaps="true"
+	       android:textAlignment="center"
+	       android:id="@+id/mypurposetv"
+	       android:layout_width="wrap_content"
+	       android:layout_marginTop="10dp"
+	       android:layout_marginLeft="10dp"
+	       android:layout_marginBottom="0dp"
+	       android:layout_height="wrap_content"
+	       android:hint="INVITED"
+	       android:padding="5dp"
+	       android:textColor="#000"
+	      />
+  
+	           <ListView
+        android:drawSelectorOnTop="true" 
+            android:id="@+id/MyContactlist"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:smoothScrollbar="true"
+            android:textColor="#000"
+            android:textSize="17dp" >
+        </ListView>
+        
+        
+  
+<!-- 
+      
+
+<RelativeLayout
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.facebook.widget.LoginButton
+            android:id="@+id/myauthButton"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="fbshare" />
+
+       <Button
+           android:id="@+id/myfbshare"
+           android:layout_width="140dp"
+           
+            android:textColor="#fff"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+            android:padding="10dp"
+            android:background="#30AC59"
+           
+           android:text="fbshare" />
+
+       </RelativeLayout>
+        <Button
+            android:textColor="#fff"
+            android:id="@+id/myshare"
+            android:background="#30AC59"
+             android:layout_width="140dp"
+             android:layout_height="wrap_content"
+              android:padding="10dp"
+            android:text="Share"
+           />
+
+   </LinearLayout>
+
+        
+
+
+        
+
+        <Button
+            android:id="@+id/myGshare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/getlocations"
+            android:layout_alignTop="@+id/myauthButton"
+            android:text="gshare" />
+        -->
+       
+    </LinearLayout>
+    
+
+</com.test.weeklly.dummyui.VerticalScrollview>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#EBEBEB"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp" >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="3dp"
+    android:weightSum="100"
+    android:layout_margin="5dp"
+   >
+    
+         <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf" 
+    android:id="@+id/cm_name_tv"
+            
+            android:layout_weight="20"
+        android:textColor="#000"
+        android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="name" 
+            android:textAllCaps="true"
+            />
+         <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/SofiaProLight.otf"
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:paddingLeft="5dp"
+        android:text="Medium Text"
+        
+            android:layout_weight="60"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+      
+        <com.tomdignan.nifty.NiftyTextView
+    xmlns:nifty="http://schemas.tomdignan.com/nifty"
+    nifty:typeface="fonts/leaguegothic.otf"
+            android:id="@+id/cm_date_tv"
+            android:textColor="#000"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:layout_weight="20"
+         />
+         
+   </LinearLayout>
+</LinearLayout>
