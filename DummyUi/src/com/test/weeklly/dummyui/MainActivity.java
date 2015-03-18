@@ -77,9 +77,8 @@ public class MainActivity extends SherlockFragmentActivity {
 			// Return a DummySectionFragment (defined as a static inner class
 			// below) with the page number as its lone argument.
 		 fragment = new MyEventList();
-			if(position == 0){
+			if(position == 0)
 				fragment = new MyEventList();
-			}
 			else if(position == 1)
 				fragment = new InvitedEventList();
 			else if(position==2)

@@ -1,7 +1,5 @@
 package com.androidhive.pushnotifications;
 
-import com.test.weeklly.R;
-
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
